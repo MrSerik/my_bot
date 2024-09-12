@@ -2,11 +2,14 @@
 
 open gazebo with my map :
 ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/serik.world
+ros2 launch my_bot launch_robot.launch.py
 
 teleop:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 SLAM/map in rviz:
+sudo apt install ros-foxy-rplidar-ros
+
 ros2 launch slam_toolbox online_async_launch.py params_file:=./src/my_bot/config/mapper_params_online_async.yaml use_sim_time:=true
 
 do not forget to open rviz2!
