@@ -24,3 +24,8 @@ sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup
 
 to instal mux(it help to control with different cmd_bel):
 sudo apt install ros-foxy-twist-mux
+
+
+colcon error:
+sudo apt update
+sudo apt install ros-foxy-ament-cmake
