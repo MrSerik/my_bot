@@ -27,5 +27,6 @@ sudo apt install ros-foxy-twist-mux
 
 
 colcon error:
+source /opt/ros/foxy/setup.bash
 sudo apt update
 sudo apt install ros-foxy-ament-cmake
