@@ -2,6 +2,7 @@
 
 open gazebo with my map :
 ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/serik.world
+
 ros2 launch my_bot launch_robot.launch.py
 
 teleop:
