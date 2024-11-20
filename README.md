@@ -31,3 +31,6 @@ colcon error:
 source /opt/ros/foxy/setup.bash
 sudo apt update
 sudo apt install ros-foxy-ament-cmake
+
+some times you need to delete all logs : rm -rf ~/.ros/log
+
